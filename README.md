@@ -1,6 +1,6 @@
-# Mobitrendz Enterprise Full-Stack Templates
+# MobiTrendz Enterprise Full-Stack Templates
 
-Welcome to the Mobitrendz open-source hub. This page highlights our evolving, enterprise-grade templates optimized for 2026 industry standards [1, 2].
+Welcome to the MobiTrendz open-source hub. This page highlights our evolving, enterprise-grade templates optimized for 2026 industry standards [1, 2].
 
 ## [FastAPI AI-Optimized Enterprise Backend Template](https://github.com/mobitrendz/fastapi-backend-template)
 This backend provides a layered modular architecture designed for high performance and AI-driven development [1, 3, 4].
