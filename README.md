@@ -1,17 +1,87 @@
-# MobiTrendz Enterprise Full-Stack Templates
+# MobiTrendz
 
-Welcome to the MobiTrendz open-source hub. This page highlights our evolving, enterprise-grade templates optimized for 2026 industry standards [1, 2].
+**Live site:** [https://mobitrendz.github.io](https://mobitrendz.github.io)
 
-## [FastAPI AI-Optimized Enterprise Backend Template](https://github.com/mobitrendz/fastapi-backend-template)
-This backend provides a layered modular architecture designed for high performance and AI-driven development [1, 3, 4].
-* **Tech Stack**: It leverages Python 3.12+, FastAPI, SQLModel, and PostgreSQL 18 [4, 5].
-* **Security & Observability**: It implements a robust Role-Based Access Control (RBAC) system, structured JSON logging with Structlog, real-time metrics with Prometheus, and automated security scanning [4-6].
-* **Developer Workflows**: The template is fully integrated with `uv` for fast dependency management, Docker health checks, and Alembic for robust schema migrations [4, 5, 7].
-* **Live Documentation**: Deep-dive architecture and deployment guides are generated via Zensical and hosted at `https://mobitrendz.github.io/fastapi-backend-template/` [8].
+MobiTrendz is an information services initiative dedicated to creating and sharing enterprise-grade, open-source templates, applications, and digital resources. Our mission is to empower developers, organizations, and communities by providing accessible, high-quality tools that foster innovation, collaboration, and digital inclusion.
 
-## [React 19 + FastAPI Frontend Template](https://github.com/mobitrendz/react-frontend-template)
-This template is a modern companion frontend pre-configured to consume the FastAPI backend [2, 4].
-* **Tech Stack**: It is built with React 19 (TypeScript), Vite 8, Tailwind CSS 4, and the shadcn/ui framework [2, 9].
-* **Data & Orchestration**: It features a contract-first, type-safe SDK generated from the backend's OpenAPI schema using `@hey-api/openapi-ts`, orchestrated by TanStack Query for automatic caching and background revalidation [9, 10].
-* **Features**: The frontend includes secure JWT authentication, multi-page architecture with React Router 7, adaptive dark mode, and a powerful admin dashboard for user lifecycle management [11, 12].
-* **Quality Assurance**: System reliability is enforced with over 92% statement test coverage via Vitest, alongside automated CI/CD API sync checks that prevent broken contracts from reaching production [13-15].
+Through open-source solutions and knowledge-sharing, MobiTrendz aims to make technology more accessible to the public while supporting sustainable and community-driven development.
+
+This repository hosts the static landing page for the MobiTrendz GitHub Pages site.
+
+---
+
+## Open-Source Templates
+
+Our evolving, enterprise-grade templates are optimized for 2026 industry standards.
+
+### [FastAPI AI-Optimized Enterprise Backend Template](https://github.com/mobitrendz/fastapi-backend-template)
+
+A layered modular architecture designed for high performance and AI-driven development.
+
+- **Tech Stack:** Python 3.12+, FastAPI, SQLModel, PostgreSQL 18
+- **Security & Observability:** RBAC, Structlog JSON logging, Prometheus metrics, automated security scanning
+- **Developer Workflows:** `uv` dependency management, Docker health checks, Alembic migrations
+- **Documentation:** [https://mobitrendz.github.io/fastapi-backend-template/](https://mobitrendz.github.io/fastapi-backend-template/)
+
+### [React 19 + FastAPI Frontend Template](https://github.com/mobitrendz/react-frontend-template)
+
+A modern companion frontend pre-configured to consume the FastAPI backend.
+
+- **Tech Stack:** React 19 (TypeScript), Vite 8, Tailwind CSS 4, shadcn/ui
+- **Data & Orchestration:** Contract-first SDK via `@hey-api/openapi-ts`, TanStack Query caching
+- **Features:** JWT authentication, React Router 7, adaptive dark mode, admin dashboard
+- **Quality Assurance:** 92%+ statement test coverage (Vitest), automated CI/CD API sync checks
+
+### [Expo Mobile App Template](https://github.com/mobitrendz/expo-mobile-template)
+
+A React Native mobile app built with Expo SDK 54 that connects to the FastAPI backend.
+
+- **Tech Stack:** Expo SDK 54, React Native, React 19, TypeScript
+- **Features:** JWT authentication, full-featured task manager, profile management
+- **API Integration:** Auto-generated type-safe client from OpenAPI specification
+
+---
+
+## Repository Structure
+
+```
+mobitrendz.github.io/
+├── index.html          # Landing page
+├── css/styles.css      # Site styles
+├── assets/             # Logo and banner images
+├── ref/                # Reference READMEs and brand assets
+└── .nojekyll           # Bypass Jekyll processing on GitHub Pages
+```
+
+---
+
+## Local Development
+
+No build step is required. Serve the site locally with any static file server:
+
+```bash
+# Python
+python3 -m http.server 8080
+
+# Node.js (npx)
+npx serve .
+```
+
+Then open [http://localhost:8080](http://localhost:8080).
+
+---
+
+## GitHub Pages Deployment
+
+This repo is configured as a user/organization GitHub Pages site. To deploy:
+
+1. Push changes to the `main` branch.
+2. In **Settings → Pages**, set the source to **Deploy from branch** → `main` → `/ (root)`.
+3. The site will be published at [https://mobitrendz.github.io](https://mobitrendz.github.io).
+
+---
+
+## Links
+
+- **Website:** [https://mobitrendz.github.io](https://mobitrendz.github.io)
+- **GitHub Organization:** [https://github.com/mobitrendz](https://github.com/mobitrendz)
