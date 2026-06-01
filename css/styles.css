@@ -426,10 +426,9 @@ a:hover {
 }
 
 .about-logo-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 568 / 378;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -437,8 +436,13 @@ a:hover {
 }
 
 .about-logo-wrap img {
-  width: min(280px, 70%);
-  border-radius: var(--radius);
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 /* ── Templates ── */
