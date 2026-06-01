@@ -30,15 +30,17 @@ A modern companion frontend pre-configured to consume the FastAPI backend.
 - **Tech Stack:** React 19 (TypeScript), Vite 8, Tailwind CSS 4, shadcn/ui
 - **Data & Orchestration:** Contract-first SDK via `@hey-api/openapi-ts`, TanStack Query caching
 - **Features:** JWT authentication, React Router 7, adaptive dark mode, admin dashboard
-- **Quality Assurance:** 92%+ statement test coverage (Vitest), automated CI/CD API sync checks
+- **Quality Assurance:** 92.66% statement test coverage (Vitest), automated CI/CD API sync checks
+- **Documentation:** [https://mobitrendz.github.io/react-frontend-template/](https://mobitrendz.github.io/react-frontend-template/) (Docusaurus)
 
 ### [Expo Mobile App Template](https://github.com/mobitrendz/expo-mobile-template)
 
-A React Native mobile app built with Expo SDK 54 that connects to the FastAPI backend.
+Part of the MobiTrendz starter kit — a React Native app (Expo SDK 54) connected to the FastAPI backend.
 
-- **Tech Stack:** Expo SDK 54, React Native, React 19, TypeScript
-- **Features:** JWT authentication, full-featured task manager, profile management
+- **Tech Stack:** Expo SDK 54, React Native 0.81, React 19, TypeScript
+- **Features:** JWT authentication, task manager with platform-aware date pickers, profile management
 - **API Integration:** Auto-generated type-safe client from OpenAPI specification
+- **Documentation:** [https://mobitrendz.github.io/expo-mobile-template/](https://mobitrendz.github.io/expo-mobile-template/) (Docusaurus)
 
 ---
 
@@ -80,6 +82,14 @@ This repo is configured as a user/organization GitHub Pages site. To deploy:
 3. The site will be published at [https://mobitrendz.github.io](https://mobitrendz.github.io).
 
 ---
+
+## Documentation
+
+| Template | Docs URL | Generator |
+|----------|----------|-----------|
+| FastAPI Backend | [mobitrendz.github.io/fastapi-backend-template](https://mobitrendz.github.io/fastapi-backend-template/) | Zensical |
+| React Frontend | [mobitrendz.github.io/react-frontend-template](https://mobitrendz.github.io/react-frontend-template/) | Docusaurus |
+| Expo Mobile | [mobitrendz.github.io/expo-mobile-template](https://mobitrendz.github.io/expo-mobile-template/) | Docusaurus |
 
 ## Links
 
