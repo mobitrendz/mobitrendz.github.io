@@ -609,10 +609,51 @@ a:hover {
   color: #fff;
 }
 
+/* ── Knowledge Hub ── */
+
+.knowledge-hub {
+  padding: 5rem 0;
+}
+
+.hub-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 720px;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.hub-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.hub-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.hub-card h3 a {
+  color: var(--text-primary);
+}
+
+.hub-card h3 a:hover {
+  color: var(--accent-bright);
+}
+
 /* ── Documentation ── */
 
 .docs {
   padding: 5rem 0;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border);
 }
 
 .docs-grid {
@@ -672,8 +713,6 @@ a:hover {
 
 .cta {
   padding: 5rem 0;
-  background: var(--bg-surface);
-  border-top: 1px solid var(--border);
 }
 
 .cta-box {
@@ -727,7 +766,7 @@ a:hover {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 2rem;
   margin-bottom: 2.5rem;
 }

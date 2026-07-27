@@ -44,6 +44,16 @@ Part of the MobiTrendz starter kit — a React Native app (Expo SDK 54) connecte
 
 ---
 
+## Knowledge Hub
+
+### [AI Continuum](https://aicontinuum.mobitrendz.com/)
+
+A comprehensive AI reference hub (not an open-source template) that organizes core AI knowledge across historical eras, model families, tools, developer libraries, key figures, research labs, and future concepts.
+
+- **Website:** [https://aicontinuum.mobitrendz.com/](https://aicontinuum.mobitrendz.com/)
+
+---
+
 ## Repository Structure
 
 ```
