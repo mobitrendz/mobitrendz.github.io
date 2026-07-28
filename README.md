@@ -66,6 +66,17 @@ An evidence-based nutrition planning application that generates structured dieta
 - **Architecture:** Gemini 3.5 Flash integration with deterministic local fallback support
 - **Website:** [https://digidiet.mobitrendz.com/](https://digidiet.mobitrendz.com/)
 
+### [108 Drigganita Music](https://astromusic.mobitrendz.com/)
+
+A Vedic astronomy and spiritual music application that combines Drik-ganita sidereal calculations with Sahasranama, Keerthana, and Bhajana playback.
+
+- **Astronomy Engine:** Live Nirayana Gochara transit chart and Drik-ganita Jathakam birth-chart calculation
+- **Muhurta Timing:** Daily day/night Muhurta explorer with deity mappings and location-aware sidereal timekeeping
+- **Music Player:** Archival playlist recommendations aligned to active Gochara and Muhurta influences
+- **Languages:** English, Malayalam, and Telugu
+- **Website:** [https://astromusic.mobitrendz.com/](https://astromusic.mobitrendz.com/)
+- **Repository:** [https://github.com/mobitrendz/astromusic](https://github.com/mobitrendz/astromusic)
+
 ---
 
 ## Repository Structure
