@@ -615,6 +615,12 @@ a:hover {
   padding: 5rem 0;
 }
 
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
 .hub-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -835,6 +841,7 @@ a:hover {
   }
 
   .template-grid,
+  .hub-grid,
   .docs-grid {
     grid-template-columns: 1fr;
     max-width: 560px;

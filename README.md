@@ -54,6 +54,20 @@ A comprehensive AI reference hub (not an open-source template) that organizes co
 
 ---
 
+## Applications
+
+### [Digital Dietitian](https://digidiet.mobitrendz.com/)
+
+An evidence-based nutrition planning application that generates structured dietary guidance using biometric inputs, activity levels, and clinical condition toggles.
+
+- **Core Engine:** Mifflin-St Jeor calorie computation with activity multipliers and baseline fallbacks
+- **Clinical Protocols:** Hypertension, celiac disease, diabetes, pregnancy, and lactation adjustments
+- **Output Modes:** Dashboard view plus exportable structured JSON nutrient report
+- **Architecture:** Gemini 3.5 Flash integration with deterministic local fallback support
+- **Website:** [https://digidiet.mobitrendz.com/](https://digidiet.mobitrendz.com/)
+
+---
+
 ## Repository Structure
 
 ```
