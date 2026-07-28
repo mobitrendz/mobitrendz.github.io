@@ -128,5 +128,5 @@ This repo is configured as a user/organization GitHub Pages site. To deploy:
 
 ## Links
 
-- **Website:** [https://mobitrendz.github.io](https://mobitrendz.github.io)
+- **Website:** [https://mobitrendz.com/](https://mobitrendz.com/)
 - **GitHub Organization:** [https://github.com/mobitrendz](https://github.com/mobitrendz)
