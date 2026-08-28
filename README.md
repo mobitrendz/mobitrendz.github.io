@@ -56,6 +56,18 @@ A comprehensive AI reference hub (not an open-source template) that organizes co
 
 ## Applications
 
+### [DraftAI](https://github.com/mobitrendz/DraftAI)
+
+A smart content assistant for developers and tech writers. Turn a single topic or prompt into a full-length DEV.to technical article, LinkedIn post, and matching cover image — then review, schedule, and publish.
+
+- **Monorepo Architecture:** FastAPI backend + ARQ background worker, PostgreSQL, Redis, React 19 + Vite dashboard (built on MobiTrendz enterprise templates)
+- **Multi-Platform AI Generation:** Automated generation of technical DEV.to Markdown articles and LinkedIn posts from one prompt
+- **AI Cover Images:** Synchronous AI-generated cover images with persistent object storage
+- **Interactive Review Editor:** Split-view Markdown editor with live formatting, cover image management, and manual editing
+- **Staggered Publishing & Scheduling:** Automated publishing queue that publishes DEV.to first, captures live URL, injects it into LinkedIn post text, and publishes (with copy-to-clipboard fallback)
+- **Multi-Tenant Security:** Per-user Fernet-encrypted BYOK (Bring Your Own Keys) credentials for LLM providers (OpenAI, Anthropic) and publishing platforms
+- **Repository:** [https://github.com/mobitrendz/DraftAI](https://github.com/mobitrendz/DraftAI)
+
 ### [Digital Dietitian](https://digidiet.mobitrendz.com/)
 
 An evidence-based nutrition planning application that generates structured dietary guidance using biometric inputs, activity levels, and clinical condition toggles.
