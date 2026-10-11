@@ -46,6 +46,16 @@ Part of the MobiTrendz starter kit — a React Native app (Expo SDK 54) connecte
 
 ## Knowledge Hub
 
+### [The Ghost Letters](https://theghostletters.org/)
+
+An interactive essay on how English silent letters — from Caxton’s Flemish typesetters to Renaissance etymological vanity — quietly inflate print volume into a compounding ecological cost.
+
+- **Thesis:** Silent characters (roughly 5% of printed English) carry real timber, water, ink, and carbon overhead at global publishing scale
+- **History:** Traces ghost letters through Caxton’s 1476 press, Flemish compositor conventions, and Latinate spelling reforms
+- **Impact:** Estimates ~1.6 million trees pulped annually solely for letters that make no sound
+- **Paths Forward:** Leaner orthography, eco-efficient typefaces, and recycled fiber in mass-market publishing
+- **Website:** [https://theghostletters.org/](https://theghostletters.org/)
+
 ### [AI Continuum](https://aicontinuum.mobitrendz.com/)
 
 A comprehensive AI reference hub (not an open-source template) that organizes core AI knowledge across historical eras, model families, tools, developer libraries, key figures, research labs, and future concepts.
